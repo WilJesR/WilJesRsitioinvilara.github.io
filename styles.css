@@ -1,0 +1,286 @@
+*{
+	margin: 0 0;
+	font-family: arial;
+	
+}
+body{
+	background-color: #0080d0;
+	font-family: 'Oswald', sans-serif;
+	font-size: clamp(0.5em, 1.5vw, 5em);
+}
+
+header{
+	display: block;
+	padding: auto;
+	background-color: #ffffff2f;
+	height: 20%;
+	border-bottom: 0.15rem solid #0008;
+}
+.ch1{
+	background: linear-gradient(120deg, #e0000090,#ff7f0080,#ff9f0070,#ff7f0080,#00900080);
+}
+h1{
+	display: block;
+	font-family: arial;
+	text-align: center;
+	font-size: clamp(0.5em, 3vw, 5em);
+}
+h2{
+	font-size: 1.7em;
+	font-family: times new roman;
+}
+p{
+	text-align: justify;
+}
+/*============================= NAVEGACION =============================*/
+#imgd{
+	width: 13%;
+	float: right;
+	margin-right: 2%;
+}
+#imgi{
+	width: 13%;
+	float: left;
+	margin-left: 2%;
+}
+nav{
+	width: 100%;
+	display: inline-block;
+}
+
+nav a{
+	margin: 0.5em 0;
+	padding: 0.2em 0.8em;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+}
+nav a:hover{
+	background-color: #ffffff20;
+	text-decoration: underline #fff8;
+	border-radius: 20px;
+
+}
+nav a:active{
+	
+	font-size: 1em;
+	padding: 0.07em 0.67em;
+	background-color: #ffffff10;
+	border: 2px inset #aaaaaa70;
+	border-radius: 20px;
+
+}
+/*============================= CONTENIDO =============================*/
+.divcentral{
+	font-size: 1rem;
+	clear: both;
+	margin: 2% 15%;
+	padding: 2% 5%;
+	font-weight: 600;
+	line-height: 1.4em;
+	background: linear-gradient(90deg, #005fdd,#0090dd,#3088cc,#0090dd,#005fdd);
+	border: 0.2rem solid #0040ee;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #000;
+}
+
+.imagen{
+	width: 98%;
+	margin: auto;
+	display: block;
+	border: 8px inset #0040ee;
+	border-radius: 3%;
+}
+
+/*============================= PAGINA MANTENIMIENTO =============================*/
+.imgmantenimiento{
+	display: flex;
+	flex-wrap: wrap;
+}
+.imgmantenimiento img{
+	width: 45%;
+}
+
+/*============================= PAGINA CONTÁTANOS =============================*/
+.texto{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 2em;
+	background: linear-gradient(175deg, #ff1010,#ffbf00,#009000);
+	-webkit-background-clip: text;
+	-webkit-text-stroke: .5px #000;
+	color: transparent;
+	text-shadow: 1px 1px 1px #0006;
+  	line-height: 110%;
+}
+.redes{
+	display: flex;
+	flex-direction: column;
+	width: 19%;
+	position: absolute;
+
+}
+.redes div{
+	margin: 2% 0;
+}
+.redes img{
+	width: 25%;
+
+}
+.redes a,.redes .whatsapp{
+	position: absolute;
+	text-decoration: none;
+	color: #fff;
+	font-style: italic;
+	margin-top: 7%;
+	font-size: clamp(0.5em, 1.5vw, 5em);
+	line-height: 100%;
+}
+.redes a:hover{
+	text-decoration: underline 2px;
+}
+.formulario{
+	width: 70%;
+	margin-left: 30%;
+}
+.formulario input[name="Nombre"],.formulario input[name="Apellido"], .formulario input[name="Cedula"], .formulario input[name="Correo"]{	
+	border: none;
+	padding: 3% 2%;
+	margin: 1% 1%;
+	border-radius: 10px;
+	background-color: #05b;
+	color: white;
+	outline: none;
+}
+.formulario input[name="Correo"]{
+	width:90%;
+}
+::placeholder { color: #fffa; }
+.formulario input:focus{
+	border: 2px solid white;
+}
+.formulario textarea{
+	width:90%;
+	height: 1.3em;
+	min-height: 1.3em;
+	max-height: 15em;
+	background-color: #07b;
+	border:none;
+	outline: none;
+	padding: 2% 2%;
+	color: white;
+	min-width: 90%;
+	max-width: 90%;
+	
+	transition: height 1s;
+}
+.formulario textarea:focus{
+	transition: height 1s;
+	height: 15em;
+	min-height: 1.3em;
+	max-height: 15em;
+}
+.formulario input[value="Enviar"], .formulario input[value="Cancelar"]{
+	
+	border: none;
+	padding: 2%;
+	margin: 1% 1%;
+	border-radius: 10px;
+	background-color: #06b;
+	color: white;
+	outline: none;
+}
+.formulario input[value="Enviar"]:hover, .formulario input[value="Cancelar"]:hover{
+	opacity: 0.8;
+	border: 1px solid #fff;
+	padding: 1.85%;
+	cursor: pointer;
+}
+
+
+/*============================= BOTONES DE NAVEGACION =============================*/
+#bi{
+	font-size: clamp(0.5em, 1.3vw, 5em);
+	transition: font-size 0.3s;
+	float: left;
+	padding: 1% 1.5%;
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	box-shadow: -1px 3px 5px #000;
+}
+#bm{
+	font-size: clamp(0.8em, 1vw, 5em);
+	color: #ffffffa0;
+	padding: 0.8% 1%;
+	background-color: #000000a0;
+	border: 2px solid #ffffffa0;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	box-shadow: 0px 0px 5px #000;
+	position: sticky;
+	margin-top: 80%;
+	left: 90%;
+	bottom: 15%;
+}
+#bd{
+	font-size: clamp(0.5em, 1.3vw, 5em);
+	transition: font-size 0.3s;
+	float: right;
+	padding: 1% 1.5%;
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	box-shadow: 1px 3px 5px #000;
+}
+#bi:hover{
+	font-size: clamp(0.48em, 1.2vw, 5em);
+	transition: font-size 0.3s;
+	box-shadow: -1px 2px 5px #000;
+}
+#bm:hover{
+	background-color: #000d;
+	color: #fffd;
+	box-shadow: 0px 0px 5px #000;
+}
+
+#bd:hover{
+	font-size: clamp(0.48em, 1.2vw, 5em);
+	transition: font-size 0.3s;
+	box-shadow: 1px 2px 5px #000c;
+}
+#bi:active{
+	font-size: clamp(0.47em, 1.15vw, 5em);
+	box-shadow: none;
+	transition: font-size 0.1s;
+}
+#bm:active{
+	font-size: 0.77em;
+	box-shadow: none;
+}
+#bd:active{
+	font-size: clamp(0.47em, 1.15vw, 5em);
+	box-shadow: none;
+	transition: font-size 0.1s;
+}
+
+/*============================= PIE DE PÁGINA =============================*/
+footer{
+	display: block;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	background-color: #222;
+	padding: 2% 0;
+	margin-bottom: 0px;
+}
+footer span{
+	text-shadow: 2px 2px 3px #aaa;
+}

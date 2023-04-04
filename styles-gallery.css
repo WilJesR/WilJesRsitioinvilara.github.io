@@ -1,0 +1,21 @@
+.divcentral{
+	margin: 2% 5%;
+	padding: 2% 1%;
+}
+.images{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.images div{
+	margin: 0 1%;
+	margin-bottom: 2%;
+	width: 30%;
+	background: linear-gradient(180deg, #e0000090,#ff7f0080,#ff9f0070,#ff7f0080,#00900080);
+	border-radius: 10px;
+	padding: 1% 1% 2% 1%;
+}
+img{
+	width: 100%;
+	border-radius: 10px;
+}
